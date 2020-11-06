@@ -22,7 +22,7 @@ function ASYNC(){
     return dispatch => {
         setTimeout(() => {
             dispatch(REMOVE())
-        },200)
+        },2000)
     }
 }
 
